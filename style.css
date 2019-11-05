@@ -1,4 +1,6 @@
 html {
+	font-family: 'Dosis', sans-serif;
+	font-weight: 600;
 	box-sizing: border-box;
 	font-size: 16px;
 }
@@ -46,7 +48,7 @@ main {
 .do-not-miss {
 	height: 100px;
 	width: 300px;
-	background-color: #B0B0B0;
+	background-color: #505050;
 	position: absolute;
 	top: 220px;
 	left: 50%;
@@ -66,13 +68,15 @@ main {
 	flex: 1;
 	display: flex;
 	justify-content: center;
-	align-items: center;
+	align-items: center;	
 }
 
 .article p {
 	background-color: #404040;
 	height: 60%;
 	width: 70%;
+	font-size: 50px;
+	padding: 20px;
 }
 
 .article2 p {
@@ -102,11 +106,15 @@ main {
 .latest-article {
 	background: #a0a0a0;
 	grid-column: span 1;
+	font-size: 32px;
+	padding: 20px;
 }
 
 .latest-promo {
 	background: #404040;
 	grid-column: span 2;
+	font-size: 50px;
+	padding: 20px;
 }
 
 .latest-more {
@@ -137,6 +145,8 @@ main {
 	background-color: #606060;
 	width: 500px;
 	height: 50%;
+	font-size: 50px;
+	padding: 20px;
 }
 
 .up-next-img {
@@ -186,8 +196,10 @@ main {
 
 .person p {
 	width: 50%;
-	height: 80px;
+	height: 140px;
 	background-color: #505050;
+	font-size: 32px;
+	padding: 20px;
 }
 
 
@@ -218,6 +230,8 @@ main {
 	background-color: #404040;
 	height: 80%;
 	flex: 2;
+	font-size: 50px;
+	padding: 20px;
 }
 
 .book-img {
@@ -247,9 +261,11 @@ main {
 }
 
 .guide p {
-	height: 50px;
+	height: 200px;
 	width: 60%;
 	background-color: #909090;
+	font-size: 32px;
+	padding: 20px;
 }
 
 .newsletter {
@@ -264,7 +280,8 @@ main {
 	background-color: #303030;
 	width: 60%;
 	height: 70%;
-
+	font-size: 50px;
+	padding: 20px;
 }
 
 .see-all {
