@@ -123,7 +123,6 @@ main {
 	display: grid;
 	justify-content: center;
 	align-items: center;
-
 }
 
 .latest-more p {
@@ -175,6 +174,7 @@ main {
 .person-highlight > * {
 	margin: 0 20px;
 }
+
 .person-highlight img {
 	background-color: #404040;
 	height: 400px;
@@ -297,6 +297,8 @@ main {
 	width: 300px;
 	background-color: #505050;
 }
+
+/* FOOTER */
 footer {
 	background: #606060;
 	height: 700px;
